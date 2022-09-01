@@ -1,15 +1,15 @@
 import React from 'react';
 import './style.css';
-import FirstGoal from "../components/FirstGoal"
-import SecondGoal from "../components/SecondGoal"
+
+import Header from "../components/Header"
 import GoalList from "../components/GoalList"
 
 export default function App() {
   return (
    <> 
+      <Header />
       <GoalList />
-      <FirstGoal />
-      <SecondGoal />
+      
     </>
   );
 }

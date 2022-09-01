@@ -1,7 +1,17 @@
 import React from "react"
 
+import FirstGoal from './FirstGoal'; 
+
+import SecondGoal from './SecondGoal'; 
+
+import ThirdGoal from './ThirdGoal'; 
+
 export default function GoalList() {
   return (
-    <h1>My Goals form this Book</h1>
+    <> 
+      <FirstGoal />
+      <SecondGoal />
+      <ThirdGoal />
+    </>
   )
 }
